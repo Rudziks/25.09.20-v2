@@ -6,9 +6,39 @@
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
 }
 .main-border {
     border: 2px solid black;
+}
+
+@keyframes przyblizenie {
+    from {
+height: 100%;
+width: 100%;
+    }
+    to{
+        transform: scale(1,5);
+
+    }
+}
+
+@keyframes oddalanie {
+    from {
+
+    }
+    to {
+transform: scale(0,5);
+    }
+}
+
+
+@keyframes obrot {
+    from {
+
+    }
+    to{
+        transform: rotate(20deg);
+    }
 }
